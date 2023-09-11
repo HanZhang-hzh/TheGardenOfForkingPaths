@@ -42,7 +42,7 @@ function draw() {
     //display the word according to their number of appearances;
     for (let word in word_count) {
       wordtimes = word_count[word] * 5.9;
-      let r = random(0,253);
+      let r = random(0,255);
       let g = random(0,255);
       let b = random(0,255);
       fill(r,g,b,wordtimes * 1.9);
